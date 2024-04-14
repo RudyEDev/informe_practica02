@@ -1,0 +1,61 @@
+.cuartos{
+    margin-left: 8rem;
+}
+
+.cuartos-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuartos-card{
+    width: 40rem;
+    margin: 5rem;
+    background-color: #15141b;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.3);
+}
+
+.cuartos-img{
+    width: 100%;
+}
+
+.cuartos-card-content{
+    color: #ddd;
+    padding: 2rem;
+}
+
+.cuartos-card-heading{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cuartos-card-description{
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.cuartos-price{
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: right;
+    margin: 0;
+}
+
+.cuartos-card-btn{
+    width: 15rem;
+    padding: 1.5rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #b85b1c;
+    background-color: transparent;
+    border: .1rem solid #b85b1c;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.cuartos-card-btn:hover{
+    color: #ddd;
+    background-color: #b85b1c;
+}
